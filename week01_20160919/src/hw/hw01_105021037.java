@@ -9,6 +9,7 @@ public class hw01_105021037 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		Math.ceil(Math.log(a)/log(b))
 	}
 
 }
