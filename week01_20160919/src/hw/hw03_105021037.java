@@ -10,25 +10,20 @@ public class hw03_105021037 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scanner= new Scanner(System.in);
-		float a=scanner.nextInt();
-		float b=scanner.nextInt();
-		float c=scanner.nextInt();
-		float d=scanner.nextInt();
-		float e=scanner.nextInt();
-		float f=scanner.nextInt();
-		int q =Math.round(a);	
-		int w =Math.round(b);
-		int r =Math.round(c);
-		int t =Math.round(e);
-		int u =Math.round(d);
-		int i =Math.round(f);
+		System.out.println("請輸入6個數");
+		float a=scanner.nextFloat();int q =Math.round(a);
+		float b=scanner.nextFloat();int w =Math.round(b);
+		float c=scanner.nextFloat();int r =Math.round(c);
+		float d=scanner.nextFloat();int t =Math.round(d);
+		float e=scanner.nextFloat();int u =Math.round(e);
+		float f=scanner.nextFloat();int i =Math.round(f);
 		int s =Math.min(q, w);
 		int h =Math.min(r, t);
 		int k =Math.min(u, i);
 		int y =Math.min(s, h);
 		int l =Math.min(h, k);
 		int v =Math.min(y, l);
-		System.out.print(v);
+		System.out.print("最小值="+v);
 		
 
 	}

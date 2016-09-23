@@ -4,10 +4,21 @@ package hw;
  * Date: 2016/09/19
  * Author: 105021037 林建宏
  */
+import java.util.Scanner;
 public class hw02_105021037 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		Scanner scnn =new Scanner(System.in);
+		System.out.println("請輸入數字");
+		int n =scnn.nextInt();
+		System.out.println((Math.random()*(n-1)+1));
+		System.out.println((Math.random()*(n-1)+1));
+		System.out.println((Math.random()*(n-1)+1));
+		System.out.println((Math.random()*(n-1)+1));
+		System.out.println((Math.random()*(n-1)+1));
+		System.out.println((Math.random()*(n-1)+1));
+		
 
 	}
 

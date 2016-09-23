@@ -4,11 +4,16 @@ package hw;
  * Date: 2016/09/19
  * Author: 105021037 林建宏
  */
-
+import java.util.Scanner;
 public class hw04_105021037 {
-
+    
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		Scanner scn =new Scanner(System.in);
+		System.out.println("請輸入底數與次方數");
+		int a = scn.nextInt();
+		int b = scn.nextInt();
+		System.out.println(Math.pow(a,1.0/b));
 
 	}
 
